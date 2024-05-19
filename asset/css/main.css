@@ -1,0 +1,150 @@
+@import "base.css";
+
+.header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 1.6474391222000122px 8.23719596862793px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header .logo img {
+    width: 35px;
+}
+
+.header .logo a {
+    color: var(--maincolor);
+}
+
+.header .nav a {
+    color: #101928;
+}
+
+.nav ul {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.header .auth a {
+    padding: 10px 30px;
+    font-family: var(--subfont);
+    border-radius: 10px;
+}
+
+.header .auth a:first-of-type {
+    color: var(--maincolor);
+    border: 1px solid var(--maincolor);
+}
+
+.header .auth a:last-of-type {
+    background-color: var(--maincolor);
+    color: aliceblue;
+}
+
+@media(max-width: 900px) {
+    .nav {
+        display: none;
+    }
+
+    body {
+        background-color: blueviolet;
+    }
+}
+
+/* START FOOTER */
+.footer {
+    background-color: #393E46;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer .footer-left-side,
+.footer .footer-right-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .footer-left-side .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .footer-left-side .logo img {
+    width: 35px;
+}
+
+.footer .footer-left-side p {
+    margin: 0;
+}
+
+.footer .footer-left-side .icons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer .footer-left-side .icons img {
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    box-sizing: content-box;
+}
+
+.footer .footer-right-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer .footer-right-side .row {
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.footer-right-side .footer-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10px;
+    
+}
+
+
+
+.footer-right-side .footer-item  ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
